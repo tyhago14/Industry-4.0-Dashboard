@@ -1,0 +1,9 @@
+{
+  "name": "web-app",
+  "version": "1.0.0",
+  "description": "Web App Implementation for the ESI 4.0 Platform",
+  "repository": "gitlab.com/esiteam1/projetos-internos/esi4/web-app",
+  "author": "nunocgoncalves <nunomcgoncalves2005@gmail.com>",
+  "license": "MIT",
+  "dependencies": {}
+}

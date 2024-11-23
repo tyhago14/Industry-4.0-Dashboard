@@ -1,0 +1,118 @@
+.listaMaquinasBox{
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  padding: 1em;
+  border-radius: 1em;
+  margin: 0rem 1.5rem 1rem 1.5rem;
+}
+
+.titulo-listMaquinas {
+  font-size: 1.4em;
+  font-weight: bold;
+  padding-left: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+
+}
+.subtitulo-Maquinas {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.box2 {
+  background-color: white;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  justify-content: center;
+  display: flex;
+  margin-top: 1em;
+  padding: 0.5em;
+  border-radius: 15px;
+}
+
+.box3 {
+  background-color: white;
+  justify-content: center;
+  display: flex;
+}
+
+.box3[estado="False"] {
+  color: rgb(224, 60, 50);
+}
+.texto[estado="False"]::after {
+  content: "Desativado";
+  color: rgb(224, 60, 50);
+  justify-content: left;
+  padding-left: 2em;
+  display: flex;
+  font-weight: bold;
+}
+
+.box3[estado="True"] {
+  color: rgb(123, 182, 98);
+}
+.texto[estado="True"]::after {
+  content: "Ativado";
+  color: rgb(123, 182, 98);
+  justify-content: left;
+  padding-left: 2em;
+  display: flex;
+  font-weight: bold;
+}
+
+.box3 {
+  color: rgb(255, 211, 1);
+}
+.texto::after {
+  content: "A carregar...";
+  color: rgb(255, 211, 1);
+  justify-content: left;
+  padding-left: 2em;
+  display: flex;
+  font-weight: bold;
+}
+
+.container {
+  display: inline-block;
+  *display: inline;
+
+}
+
+.card2 {
+  margin: 10px;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  transform: scale(1);
+  transition: transform 0.2s;
+}
+.card2:hover {
+  cursor: pointer;
+  filter: none;
+  transform: scale(1.05);
+}
+.card2:hover .subtitulo-Maquinas {
+  color: #49b6ff;
+}
+
+.card2-header img {
+  width: 100%;
+  height: 10rem;
+  object-fit: cover;
+}
+
+.card2-body2 {
+  padding: 0.3rem 1rem 1rem 1rem;
+}
+
+
+@media only screen and (max-width: 375px) {
+  .texto{
+    font-size: 0.7rem; 
+  }
+}

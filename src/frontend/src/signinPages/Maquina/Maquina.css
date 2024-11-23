@@ -1,0 +1,50 @@
+.margin {
+    padding: 5em 1.5em 1.5em 1.5em;
+  }
+  
+  .nome-celula {
+    font-size: 3em;
+  }
+  
+  .box22 {
+    background-color:white;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+      rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    justify-content: center;
+    display: flex;
+    margin-top: 1em;
+    padding: 1em;
+    border-radius: 1em;
+  }
+  
+  .textoCentro {
+    text-align: center;
+    font-size: 1.5em;
+  }
+  
+  .box22 {
+    background-color: rgb(255, 211, 1);
+  }
+  .box22:after {
+    content: "A Carregar...";
+    color:white;
+    font-weight:bold;
+  }
+  
+  .box22[estado="True"] {
+    background-color: rgb(123, 182, 98);
+  }
+  .box22[estado="True"]:after {
+    content: "Ativado";
+    color:white;
+    font-weight:bold;
+  }
+  .box22[estado="False"] {
+    background-color: rgb(224, 60, 50);
+  }
+  .box22[estado="False"]:after {
+    content: "Desativado";
+    color:white;
+    font-weight:bold;
+  }
+  

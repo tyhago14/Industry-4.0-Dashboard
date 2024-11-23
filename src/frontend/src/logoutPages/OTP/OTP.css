@@ -1,0 +1,102 @@
+
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+
+.body2 {
+  position:absolute;
+  top:0px;
+  right:0px;
+  bottom:0px;
+  left:0px;
+  font-family: Sans-serif;
+  background: linear-gradient(
+    90deg,
+    #49b6ff 0%,
+    #007fff 50%,
+    rgba(26, 45, 61, 1) 100%
+  );
+}
+
+h4 {
+  color: #ffffff;
+  font-size: 350%;
+  font-weight: 50;
+  outline: none;
+}
+
+h5 {
+  color: rgb(255, 255, 255);
+  margin-left: 20px;
+  margin-top: 2vh;
+  margin-bottom: 30px;
+  font-size: 200%;
+  font-weight: 50;
+  outline: none;
+}
+
+.linkRight {
+  text-transform: none;
+  float: left;
+  font-size: 90%;
+  padding-top: 1vh;
+  text-align: right;
+  width: 90%;
+}
+
+.otp__container {
+  flex-direction: column;
+  text-align: center;
+  margin-top: 20vh;
+  padding-left: 25vw;
+  padding-right: 25vw;
+  text-align: center;
+}
+.otp__textBox {
+  border-radius: 25px;
+  border: 1px solid rgb(20, 14, 202);
+  padding: 1px;
+  padding-left: 25px;
+  font-size: 50px;
+  width: 90%;
+  text-align: center;
+  outline: none;
+}
+
+#otp-error-holder {
+  width: 100%;
+  height: 100%;
+  display: grid;
+}
+
+#otp-error {
+  width: 100%;
+  margin-top: 0;
+  margin-left: 16px;
+  padding: 5px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #bd0505;
+  border: 1px solid #ffffff00;
+  background-color: hsla(0, 0%, 100%, 0);
+  opacity: 1;
+}
+
+.iconleftarrow {
+  color: rgb(255, 255, 255);
+  height: 60px;
+  min-width: 50px;
+  font-size: 28px;
+  text-align: center;
+  line-height: 60px;
+  height: 3em;
+  width: 3em;
+  margin-top: 11px;
+  margin-bottom: 11px;
+}
+
+.iconleftarrow:hover {
+  cursor: pointer;
+}

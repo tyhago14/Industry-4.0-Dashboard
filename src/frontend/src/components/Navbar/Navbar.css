@@ -1,0 +1,152 @@
+
+.home-section {
+    position: relative;
+    top: 5rem;
+    left: 0;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid rgb(111, 111, 111);
+}
+
+.navbar-nome-celula {
+    font-size: 2.5em;
+  }
+
+.navbar-left{
+    height: 5rem;
+    padding-left: 2rem;
+    width: max-content;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-top: 0.5rem;
+}
+
+.navbar-right{
+    height: 5rem;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-right: 2rem;
+    width: max-content;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-search{
+    display: flex;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.navbar-iconSearch {
+    color: rgb(111, 111, 111);
+}
+
+.navbar-iconSearch:hover{
+    color: var(--Esi-Principal);
+    cursor:pointer;
+  }
+
+.navbar-searchTerm{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+      rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    padding: 0.5em;
+    border-radius: 20px;
+    border: 2px solid rgb(111, 111, 111);
+    padding-left: 1em;
+    width: 10rem;
+    transition: width 0.6s ease-in-out;
+}
+.navbar-searchTerm:hover{
+    border-color: var(--Esi-Principal);
+}
+
+.navbar-searchTerm:focus {
+    outline: none;
+    border-color: var(--Esi-Principal);
+    width: 15rem;
+  }
+
+  .navbar-search:focus-within .navbar-iconSearch {
+    color: var(--Esi-Principal)
+  }
+
+.navbar-notif{
+    display: flex;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.navbar-icon {
+    color: rgb(111, 111, 111);
+}
+
+.navbar-icon:hover {
+    color: var(--Esi-Principal);
+    cursor:pointer;
+}
+
+.navbar-UserName{
+    font-size: 1.2rem;
+    padding-left: 1rem;
+    padding-right: 0.5rem;
+}
+
+.name-icon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: rgb(111, 111, 111);
+    text-decoration: none;
+}
+
+.name-icon:hover{
+    cursor:pointer;
+    color: var(--Esi-Principal);
+}
+
+.logo-img {
+    height: 40px;
+  }
+
+@media only screen and (max-width: 770px) {
+    .home-section {
+        padding-bottom: 5rem;
+    }
+    .navbar-right{
+        height: 4rem;
+    }
+    .navbar-UserName{
+        display: none;
+    }
+    .search-all{
+        display: none;
+    }
+    .navbar-help{
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 320px) {
+    .home-section {
+        padding-bottom: 5rem;
+    }
+    .navbar-right{
+        height: 3rem;
+    }
+    .navbar-UserName{
+        display: none;
+    }
+    .search-all{
+        display: none;
+    }
+    .navbar-help{
+        display: none;
+    }
+    .logo-img {
+        height: 30px;
+      }
+
+}

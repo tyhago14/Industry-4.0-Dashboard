@@ -1,0 +1,71 @@
+.notification-list-item {
+  width: 300px;
+  height: 50px;
+  padding: 1em 1em 0.5em 1em;
+  border-radius: 3px;
+  position: relative;
+  line-height: 1.5;
+  display: table-cell;
+  vertical-align: middle;
+  box-sizing: border-box;
+  max-width: 300px;
+}
+
+.notification-list-item:hover {
+  cursor: pointer;
+}
+
+.standard {
+  border-radius: 12px;
+  background-color: white;
+  border-bottom: black;
+  border-bottom-width: 3px;
+  border-bottom-style: solid;
+  transition: all 1s ease;
+}
+
+.standard:hover {
+  background-color: rgb(202, 202, 202);
+}
+
+.messagenotifitem {
+  font-weight: 560;
+  font-size: 20px;
+  color: rgb(111, 111, 111);
+  text-align: left;
+  border-bottom: 10px;
+}
+
+.item-footer {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 2px 4px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.date {
+  font-size: 14px;
+  color: rgb(111, 111, 111);
+  position: relative;
+  float: right;
+}
+
+.from {
+  color: rgb(111, 111, 111);
+  float: left;
+}
+
+.info {
+  border-bottom-color: #007fff;
+}
+.error {
+  border-bottom-color: firebrick;
+}
+.warning {
+  border-bottom-color: darkorange;
+}
+.success {
+  border-bottom-color: darkolivegreen;
+}
+
+.alert {
+  color: red;
+}

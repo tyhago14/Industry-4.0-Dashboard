@@ -1,0 +1,20 @@
+app {
+  width: 100vw;
+  height: 100vh;
+  height: -moz-available;          /* WebKit-based browsers will ignore this. */
+  height: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+}
+
+
+
+::-webkit-scrollbar{
+  width: 10px;
+  background-color: aliceblue;
+}
+::-webkit-scrollbar-thumb{
+  background-image: -webkit-gradient(linear,
+                     left bottom,
+                     left top,
+                     color-stop(0.72, #0080ff80),
+                     color-stop(0.44, #49b6ff80));
+}

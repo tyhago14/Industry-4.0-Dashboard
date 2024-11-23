@@ -1,0 +1,87 @@
+.users-box {
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  overflow-y: scroll;
+}
+
+.users-box-flex {
+  display: flex;
+}
+
+.users-box-left {
+  width: 50%;
+  margin-left: 5rem;
+  padding-right: 2.5rem;
+}
+
+.users-box-right {
+  width: 50%;
+  padding-left: 2.5rem;
+}
+
+.users-subtitle {
+  font-size: 2rem;
+  color: var(--Esi-Claro);
+}
+
+.users-info {
+  border: thin solid var(--Esi-Claro);
+  color: black;
+  background-color: white;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.users-edit-btn {
+    border: none;
+    color: white;
+    background-color: var(--Esi-Claro);
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.User-table{
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: thin solid var(--Esi-Claro);
+  margin-top: 1rem;
+}
+
+.User-table th{
+  color: white;
+  background-color: var(--Esi-Claro);
+  font-size: 1.5rem;
+  padding: 0.5rem 0rem 0.5rem 0rem ;
+}
+
+.User-table td{
+  text-align: center;
+  border: solid thin var(--Esi-Claro);
+  border-style: none solid solid none;
+  padding: 10px;
+}
+
+.User-table tr:nth-child(even) {
+  background-color:aliceblue;
+}
+
+
+@media only screen and (max-width: 425px) {
+  .users-box {
+    background-color: #fff;
+    border-radius: 15px;
+    overflow-y: scroll;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+      rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+  }
+
+}

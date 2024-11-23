@@ -1,0 +1,200 @@
+.conta-box{
+  background-color: #fff;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  padding: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 2rem;
+}
+
+.conta-box-flex{
+  display: flex;
+}
+
+.conta-box-left{
+  width: 50%;
+  margin-left: 5rem;
+  padding-right: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.conta-box-right{
+  width: 50%;
+  padding-left: 2.5rem;
+  padding-right: 5rem;
+  border-left: thin solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.logoEmpresa{
+  height: 12rem;
+}
+
+.conta-nameInput{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+.conta-subTitulo{
+  font-size: 2rem;
+  padding-left: 1rem;
+  margin-bottom: 0.5rem;
+  color: var(--Esi-Claro);
+}
+
+.conta-info{
+  border: thin solid black;
+  border-radius: 50px;
+  padding: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-size: 1.2rem;
+  color: rgb(111, 111, 111);
+}
+
+.btn-center{
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+.conta-editarBtn{
+  border: thin solid black;
+  background-color: var(--Esi-Claro);
+  color: #fff;
+  font-size: 1.3rem;
+  border-radius: 50px;
+  padding: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+
+@media only screen and (max-width: 425px) {
+  .conta-box{
+    padding: 1rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 2rem;
+  }
+
+
+  .conta-box-flex{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .conta-box-left{
+    width: 100%;
+    margin-left: 0rem;
+    padding-right: 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .conta-box-right{
+    width: 100%;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    border-left: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .logoEmpresa{
+    height: 7rem;
+    margin-bottom: 2rem;
+  }
+
+  .conta-subTitulo{
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    margin-bottom: 0.5rem;
+    color: var(--Esi-Claro);
+  }
+  
+  .conta-info{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 0.9rem;
+    overflow-wrap: break-word;
+  }
+
+  .conta-nameInput{
+    margin-bottom: 1rem;
+  }
+
+  .btn-center{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+}
+
+
+@media only screen and (min-width: 426px) and (max-width: 1200px){
+  .conta-box{
+    padding: 2rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .conta-box-left{
+    width: 50%;
+    margin-left: 0rem;
+    padding-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .conta-box-right{
+    width: 50%;
+    padding-left: 1rem;
+    padding-right: 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .logoEmpresa{
+    height: 7rem;
+    margin-bottom: 0rem;
+  }
+
+  .conta-subTitulo{
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    margin-bottom: 0.5rem;
+    color: var(--Esi-Claro);
+  }
+  
+  .conta-info{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 0.9rem;
+    overflow-wrap: break-word;
+  }
+
+  .conta-nameInput{
+    margin-bottom: 1rem;
+  }
+
+  .btn-center{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+}
